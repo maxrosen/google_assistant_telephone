@@ -1,0 +1,7 @@
+soundfiles:
+    startup: ringtones/startup1.wav
+    shutdown: ringtones/shutdown1.wav
+    ringtone: ringtones/aselektriskbureau.wav
+    busytone: ringtones/Old_North_American_busy_signal.wav
+    timeout: ringtones/roh.wav
+    dialtone: ringtones/dialtone.wav

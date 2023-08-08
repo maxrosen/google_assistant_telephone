@@ -1,10 +1,13 @@
-import RPi.GPIO as GPIO
-import time
 import logging
-from google_assistant import GoogleAssistant
+import time
 
+import RPi.GPIO as GPIO
+
+from google_assistant import GoogleAssistant
+from telephone_daemon import TelephoneDaemon
 
 assistant = GoogleAssistant()
+telephone = TelephoneDaemon()
 logging.basicConfig(level=logging.INFO)
 
 
@@ -39,4 +42,5 @@ def listen_for_hook_state_change():
 
 
 if __name__ == "__main__":
-    listen_for_hook_state_change()
+    # listen_for_hook_state_change()
+    TDaemon = TelephoneDaemon()
