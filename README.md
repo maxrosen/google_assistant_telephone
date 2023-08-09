@@ -1,5 +1,6 @@
-# Google Assistant Rotary Phone
-Shoutout to my dad who had this idea a year ago and I'm only now getting around to doing it.
+# Google Assistant Rotary Phone With Dial Functionality
+Forked from rydercalmdown/google_assistant_telephone for Google Assistant code
+Code reused from hnesland/aselektriskbureau for rotary dial functionality
 
 ## Notes
-This is the code used to run the Google Assistant on my rotary phone. It uses the hook switch, but unfortunately the rotary dial is broken.
+WIP Project. Goal is to have Google Assistant act as the "operator" by dialing 0, then have custom pre-set routines triggered by dialing a predefined, non-zero number.
